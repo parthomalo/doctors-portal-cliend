@@ -25,8 +25,9 @@ const Services = () => {
         },
     ]
     return (
-        <div>
-            <h1 className='color-primary'>OUR SERVICES </h1>
+        <section className='mt-5'>
+            <h3 className='text-secondary text-xl  text-center sm:text-center'>OUR SERVICES </h3>
+            <h1 className='color-primary text-center uppercase font-bold sm:text-center text-3xl'>Services We Provide </h1>
             <div className='grid lg:grid-cols-3 sm:grid-cols-1 md:grid-cols-2 gap-4'>
 
                 {
@@ -36,7 +37,7 @@ const Services = () => {
                     ></Service>)
                 }
             </div>
-        </div>
+        </section>
     );
 };
 
