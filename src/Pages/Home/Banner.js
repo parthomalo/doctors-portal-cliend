@@ -1,37 +1,19 @@
 import React from 'react';
-
+import chair from '../../assets/images/chair.png'
+import Button from '../Shared/Button';
 const Banner = () => {
     return (
-        <div class="hero min-h-screen bg-base-200">
-            <div class="hero-content flex-col lg:flex-row-reverse">
-                <div class="text-center lg:text-left">
-                    <h1 class="text-5xl font-bold">Login now!</h1>
-                    <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.</p>
-                </div>
-                <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
-                    <div class="card-body">
-                        <div class="form-control">
-                            <label class="label">
-                                <span class="label-text">Email</span>
-                            </label>
-                            <input type="text" placeholder="email" class="input input-bordered" />
-                        </div>
-                        <div class="form-control">
-                            <label class="label">
-                                <span class="label-text">Password</span>
-                            </label>
-                            <input type="text" placeholder="password" class="input input-bordered" />
-                            <label class="label">
-                                <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
-                            </label>
-                        </div>
-                        <div class="form-control mt-6">
-                            <button class="btn btn-primary">Login</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        <div class="hero min-h-screen">
+        <div class="hero-content flex-col lg:flex-row-reverse">
+          <img src={chair}  class="max-w-sm rounded-lg shadow-2xl" />
+          <div>
+            <h1 class="text-5xl font-bold">Your New Smile Starts Here</h1>
+            <p class="py-6">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat pariatur ab nesciunt molestiae est laudantium, consectetur non dignissimos autem quisquam aperiam quis beatae accusantium, aliquid commodi sint molestias. Ipsa, fuga!
+            </p>
+            <Button></Button>
+          </div>
         </div>
+      </div>
     );
 };
 
