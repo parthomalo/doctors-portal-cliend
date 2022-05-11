@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Shared/Footer';
 import Appointment from './Appointment';
 import Banner from './Banner';
 import Exceptional from './Exceptional';
@@ -15,6 +16,7 @@ const Home = () => {
            <Exceptional></Exceptional>
            <Appointment></Appointment>
            <Testimonials></Testimonials>
+           <Footer></Footer>
         </div>
     );
 };
